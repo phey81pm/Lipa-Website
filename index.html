@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}"> 
+    <title>Lipa City</title> 
+    <!-- Styles --> 
+    
+    <link rel="stylesheet" href="css/fontawesome.min.css" />   
+    <link rel="stylesheet" href="css/app.css">  
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+ 
+    <link rel="stylesheet" href="css/custom.css"> 
+</head>
+<body>  
+    <div class="head-banner">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <a href="https://facebook.com"><i class="fa fa-facebook"></i></a> 
+                <a href="https://instagram.com"><i class="fa fa-instagram"></i></a> 
+                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a> 
+            </div>
+        </div>
+    </div>
+    <div class="head-banner">
+        <div class="container row">
+            <div class="col-md-7 d-flex justify-content-start pb-2">
+                <a href="#">
+                    <img src="img/logo.png" title="Lipa Seal" class="logo"> 
+                </a>
+                <div class="py-3 px-4">
+                    <h1>CITY OF <strong class="boldest primary">LIPA</strong></h1>
+                    <span class="px-1 text-muted">Little Rome of the Philippines</span>
+                </div>
+            </div>
+            
+            <div class="col-md-5 d-md-block d-sm-none text-right pt-4">
+                <a href="/events" class="btn btn-dark shadow-sm "><i class="fa fa-calendar"></i> EVENTS</a> 
+                <a href="#" class="btn btn-dark shadow-sm "><i class="fa fa-bullhorn "></i> ANNOUNCEMENTS</a> 
+            </div> 
+             
+        </div>
+    </div> 
+    
+    <nav class="navbar navbar-expand-md navbar-light bg-maroon shadow-md sticky-top navx ">
+        <div class="container"> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Left Side Of Navbar -->
+                <ul class="navbar-nav">  
+                    <li class="nav-item active">
+                        <a class="nav-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            News
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            Event
+                        </a>
+                    </li>  
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle tw" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Our Government
+                        </a>
+                        <div class="dropdown-menu p-3" aria-labelledby="navbarDropdown">
+                            <a class="nav-link" href="#">Administration </a>
+                            <a class="nav-link" href="#">Residents </a>
+                            <a class="nav-link" href="#">Business </a> 
+        
+                            <div class="text-center"><a href="browse">Browse all</a></div>
+                        </div> 
+                    </li> 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle tw" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <div class="dropdown-menu p-3" aria-labelledby="navbarDropdown">
+                            <a class="nav-link" href="#">Food </a>
+                            <a class="nav-link" href="#">Food </a>
+                            <a class="nav-link" href="#">Food </a>
+                            <a class="nav-link" href="#">Food </a>
+        
+                            <div class="text-center"><a href="browse">Browse all</a></div>
+                        </div> 
+                    </li> 
+
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            Contact
+                        </a>
+                    </li>
+                        
+                </ul>
+        
+            </div>
+        </div>
+    </nav>    
+
+    <main >
+        <div class="hero-banner"> 
+            <div class="container py-6">
+                <h1 class="pt-6">Empower People . Better Governance <br>Advance Services</h1> 
+                <button class="btn btn-warning mt-3">Register</button>   
+            </div>                
+        </div>
+        <div class="container my-3">  
+            <div class="row"> 
+                <div class="col-md-8">
+                    <div class="head1"><h5>GOVERNMENT AT WORK</h5></div>
+                    <!-- Swiper -->
+                    <div class="swiper-container"> 
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image:url(img/slides/slide1.jpg)">
+                            <div class="slider-texts">
+                                <div class="title" data-swiper-parallax="-300">Slide 1</div>
+                                <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+                                <div class="text" data-swiper-parallax="-100">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus
+                                    felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(img/slides/slide2.jpg)">
+                            <div class="slider-texts">
+                                <div class="title" data-swiper-parallax="-300">Slide 2</div>
+                                <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+                                <div class="text" data-swiper-parallax="-100">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus
+                                    felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(img/slides/slide3.jpg)">
+                            <div class="slider-texts">
+                                <div class="title" data-swiper-parallax="-300">Slide 3</div>
+                                <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+                                <div class="text" data-swiper-parallax="-100">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus
+                                    felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. </p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination swiper-pagination-white"></div>
+                        <!-- Add Navigation -->
+                        <!-- <div class="swiper-button-prev swiper-button-white"></div>
+                        <div class="swiper-button-next swiper-button-white"></div> -->
+                    </div> 
+                </div> 
+                <div class="col-md-4" id="rightsidebar"> 
+                    <div class="head1"><h5>COVID19 UPDATE</h5></div>
+                    <div class="news">
+                        <div class="news-box">
+                            <a href=""><div class="news-single shadow-md row">
+                                <div class="col-md-2 col-3 py-1"><img src="img/logo.png" height="35px"></div>
+                                <div class="col-md-10 col-9">Lorem IpsumLorem Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum IpsumLorem Ipsumpsum</div>                               
+                            </div></a>
+                            <a href=""><div class="news-single shadow-md row">
+                                <div class="col-md-2 col-3 py-1"><img src="img/logo.png" height="35px"></div>
+                                <div class="col-md-10 col-9">Lorem IpsumLorem Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum IpsumLorem Ipsumpsum</div>                               
+                            </div></a>
+                            <a href=""><div class="news-single shadow-md row">
+                                <div class="col-md-2 col-3 py-1"><img src="img/logo.png" height="35px"></div>
+                                <div class="col-md-10 col-9">Lorem IpsumLorem Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum IpsumLorem Ipsumpsum</div>                               
+                            </div></a>
+                            <a href=""><div class="news-single shadow-md row">
+                                <div class="col-md-2 col-3 py-1"><img src="img/logo.png" height="35px"></div>
+                                <div class="col-md-10 col-9">Lorem IpsumLorem Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum IpsumLorem Ipsumpsum</div>                               
+                            </div></a>
+                            <a href=""><div class="news-single shadow-md row">
+                                <div class="col-md-2 col-3 py-1"><img src="img/logo.png" height="35px"></div>
+                                <div class="col-md-10 col-9">Lorem IpsumLorem Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum IpsumLorem Ipsumpsum</div>                               
+                            </div></a>
+                            <a href=""><div class="news-single shadow-md row">
+                                <div class="col-md-2 col-3 py-1"><img src="img/logo.png" height="35px"></div>
+                                <div class="col-md-10 col-9">Lorem IpsumLorem Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum IpsumLorem Ipsumpsum</div>                               
+                            </div></a>
+                            <a href=""><div class="news-single shadow-md row">
+                                <div class="col-md-2 col-3 py-1"><img src="img/logo.png" height="35px"></div>
+                                <div class="col-md-10 col-9">Lorem IpsumLorem Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum IpsumLorem Ipsumpsum</div>                               
+                            </div></a>
+                            <a href=""><div class="news-single shadow-md row">
+                                <div class="col-md-2 col-3 py-1"><img src="img/logo.png" height="35px"></div>
+                                <div class="col-md-10 col-9">Lorem IpsumLorem Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum IpsumLorem Ipsumpsum</div>                               
+                            </div></a>
+                        </div>
+                        <div class="card-footer text-center shadow-sm">
+                            <a class="/covid19-updates"> More COVID19 Updates</a>
+                        </div> 
+                    </div>  
+                    <div class="head1 mt-4"><h5>LOCAL NEWS</h5></div>
+                    <div class="news">
+                        <div class="news-box">
+                            <a href=""><div class="news-single shadow-md row">
+                                <div class="col-md-2 col-3 py-1"><img src="img/logo.png" height="35px"></div>
+                                <div class="col-md-10 col-9">Lorem IpsumLorem Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum IpsumLorem Ipsumpsum</div>                               
+                            </div></a>
+                            <a href=""><div class="news-single shadow-md row">
+                                <div class="col-md-2 col-3 py-1"><img src="img/logo.png" height="35px"></div>
+                                <div class="col-md-10 col-9">Lorem IpsumLorem Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum IpsumLorem Ipsumpsum</div>                               
+                            </div></a>
+                            <a href=""><div class="news-single shadow-md row">
+                                <div class="col-md-2 col-3 py-1"><img src="img/logo.png" height="35px"></div>
+                                <div class="col-md-10 col-9">Lorem IpsumLorem Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum IpsumLorem Ipsumpsum</div>                               
+                            </div></a>
+                            <a href=""><div class="news-single shadow-md row">
+                                <div class="col-md-2 col-3 py-1"><img src="img/logo.png" height="35px"></div>
+                                <div class="col-md-10 col-9">Lorem IpsumLorem Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum IpsumLorem Ipsumpsum</div>                               
+                            </div></a>
+                            <a href=""><div class="news-single shadow-md row">
+                                <div class="col-md-2 col-3 py-1"><img src="img/logo.png" height="35px"></div>
+                                <div class="col-md-10 col-9">Lorem IpsumLorem Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum IpsumLorem Ipsumpsum</div>                               
+                            </div></a>
+                            <a href=""><div class="news-single shadow-md row">
+                                <div class="col-md-2 col-3 py-1"><img src="img/logo.png" height="35px"></div>
+                                <div class="col-md-10 col-9">Lorem IpsumLorem Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum IpsumLorem Ipsumpsum</div>                               
+                            </div></a>
+                            <a href=""><div class="news-single shadow-md row">
+                                <div class="col-md-2 col-3 py-1"><img src="img/logo.png" height="35px"></div>
+                                <div class="col-md-10 col-9">Lorem IpsumLorem Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum IpsumLorem Ipsumpsum</div>                               
+                            </div></a>
+                            <a href=""><div class="news-single shadow-md row">
+                                <div class="col-md-2 col-3 py-1"><img src="img/logo.png" height="35px"></div>
+                                <div class="col-md-10 col-9">Lorem IpsumLorem Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum IpsumLorem Ipsumpsum</div>                               
+                            </div></a>
+                        </div>
+                        <div class="card-footer text-center shadow-sm">
+                             <a class="/lcoal-news"> More Local News</a>
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </div>
+    </main>
+        
+    <script src="js/jquery-3.4.1.min.js"></script>  
+    <!-- Swiper JS -->
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      zoom: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+      
+    <script src="js/app.js" defer></script>
+    <script type="text/javascript">
+        $(function() {
+            var rightoffset = $("#rightsidebar").offset();
+            var leftoffset = $("#leftsidebar").offset();
+            var topPadding = 50;
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > rightoffset.top) {
+                    $("#rightsidebar").stop().animate({
+                        marginTop: $(window).scrollTop() - rightoffset.top + topPadding 
+                    });
+                } else {
+                    $("#rightsidebar").stop().animate({
+                        marginTop: 0
+                    });
+                };
+
+                if ($(window).scrollTop() > leftoffset.top) {
+                    $("#leftsidebar").stop().animate({
+                        marginTop: $(window).scrollTop() - leftoffset.top + topPadding 
+                    });
+                } else {
+                    $("#leftsidebar").stop().animate({
+                        marginTop: 0
+                    });
+                };
+            });
+        });
+    </script>
+</body>
+</html>
