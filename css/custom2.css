@@ -5,10 +5,10 @@
 .border-red{border:1px solid #f00;}
 .banner{height:200px; overflow: hidden; background-color:rgb(54, 70, 88);background-position: center;}
 .hero-banner{color:#fff;background-repeat: no-repeat; background-color: #B80800; 
-  background-image: url(../img/banner3.jpg); background-size: 100%;height:75vh;background-position: right center;}
+  background-image: url(../img/banner.jpg); background-size: 100%;height:75vh;background-position: right center;}
 .hero-banner h1{font-size: 55px;}
 .hero-banner h2{font-size: 40px;}
-.f-11{font-size:11px;}
+
 .pro-list{list-style: none;padding:0;margin:0;}
 .pro-list li{border-bottom:1px solid rgb(236, 236, 236);line-height:30px;padding:5px 10px;}
  
@@ -117,7 +117,7 @@ li a:hover{color:#000;text-decoration: none;}
 
 
 /* NAV PAGES */
-/* .nav-section{margin-top:-80px;} */
+.nav-section{margin-top:-80px;}
 .nav-pages {
   position: relative;
   overflow: hidden;
@@ -155,4 +155,3 @@ li a:hover{color:#000;text-decoration: none;}
   color: #000;
   text-transform: uppercase;
 }
- 
